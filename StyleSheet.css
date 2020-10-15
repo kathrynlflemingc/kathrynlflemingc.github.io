@@ -11,3 +11,9 @@
 .navitem {
   display: inline;
 }
+
+.fullname {
+	text-align: center;
+	background-color: #9dc0d1;
+	color: white;
+}
