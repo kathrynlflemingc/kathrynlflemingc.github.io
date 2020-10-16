@@ -1,9 +1,11 @@
+/* Navigation bar inspired by w3schools https://www.w3schools.com/css/css_navbar_horizontal.asp */
 .navbar {
+  font-size: 10px;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #9dc0d1;
 }
 
 .navitem {
@@ -12,16 +14,18 @@
 
 .navitem a {
   display: block;
-  color: #d93425;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .navitem a:hover {
-  background-color: #111;
+  background-color: #88a6b5;
 }
 
+/* Title style inspired by w3schools 
+https://www.w3schools.com/css/css_padding.asp */
 .fullname {
 	text-align: center;
 	font-size: 5vw;
@@ -33,4 +37,5 @@
     padding-left: 80px;
 }
 
+/* Image gallery adapted from w3schools: CSS Image Gallery https://www.w3schools.com/css/css_image_gallery.asp */
 
