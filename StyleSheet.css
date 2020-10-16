@@ -1,7 +1,3 @@
-.title {
-	color: red;
-}
-
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -13,14 +9,13 @@
 }
 
 .fullname {
-	font-family: "Arial Black", sans-serif; 
+	font-family: "Georgia", sans-serif;
 	text-align: center;
-	font-size:5vw;
+	font-size: 5vw;
 	background-color: #9dc0d1;
-	color: white;
+	color: #ffffff;
 	padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
 }
-
