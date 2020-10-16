@@ -23,7 +23,7 @@
 .navitem a:hover {
   background-color: #88a6b5;
 }
-
+/* Navigation bar */
 h1 {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -41,6 +41,6 @@ https://www.w3schools.com/css/css_padding.asp */
     padding-bottom: 50px;
     padding-left: 80px;
 }
-
+/* Title Style */
 /* Image gallery adapted from w3schools: CSS Image Gallery https://www.w3schools.com/css/css_image_gallery.asp */
 
