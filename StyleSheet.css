@@ -9,6 +9,7 @@
 }
 
 .fullname {
+
 	text-align: center;
 	font-size: 5vw;
 	background-color: #9dc0d1;
@@ -17,4 +18,5 @@
     	padding-right: 30px;
     	padding-bottom: 50px;
     	padding-left: 80px;
+	
 }
