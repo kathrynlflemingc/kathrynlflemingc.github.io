@@ -1,4 +1,4 @@
-/* Navigation bar inspired by w3schools https://www.w3schools.com/css/css_navbar_horizontal.asp */
+/* Source: Navigation bar inspired by w3schools https://www.w3schools.com/css/css_navbar_horizontal.asp */
 .navbar {
   font-size: 2vw;
   list-style-type: none;
@@ -23,14 +23,14 @@
 .navitem a:hover {
   background-color: #88a6b5;
 }
-/* Navigation Bar */
+/* End Source */
 
 h1 {
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
-/* Title style inspired by w3schools 
+/* Source: Title style inspired by w3schools 
 https://www.w3schools.com/css/css_padding.asp */
 .fullname {
 	text-align: center;
@@ -42,11 +42,11 @@ https://www.w3schools.com/css/css_padding.asp */
     padding-bottom: 40px;
     padding-left: 80px;
 }
-/* Title Style */
+/* End Source */
 
 .welcome {
 	font-style: italic;
 	color: #4f5659;
 	text-align: center;
 
-/* Image gallery adapted from w3schools: CSS Image Gallery https://www.w3schools.com/css/css_image_gallery.asp */
+/* Source: Image gallery adapted from w3schools: CSS Image Gallery https://www.w3schools.com/css/css_image_gallery.asp */
