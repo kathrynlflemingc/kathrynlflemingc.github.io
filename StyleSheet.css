@@ -2,15 +2,27 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #24362f;
 }
 
 .navitem {
-  display: inline;
+  float: center;
+}
+
+.navitem a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navitem a:hover {
+	background-color: #18241f;
 }
 
 .fullname {
-
-	font-family: "Arial Black", sans-serif;
 	text-align: center;
 	font-size: 5vw;
 	background-color: #9dc0d1;
@@ -19,5 +31,6 @@
     	padding-right: 30px;
     	padding-bottom: 50px;
     	padding-left: 80px;
-	
 }
+
+
