@@ -44,6 +44,9 @@ https://www.w3schools.com/css/css_padding.asp */
 }
 /* Title Style */
 
+.welcome {
+	font-style: italic;
+	font-color: #4f5659;
 
 /* Image gallery adapted from w3schools: CSS Image Gallery https://www.w3schools.com/css/css_image_gallery.asp */
 
