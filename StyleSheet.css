@@ -9,7 +9,7 @@
 }
 
 .navitem {
-  float: left;
+  float: center;
 }
 
 .navitem a {
@@ -38,5 +38,4 @@ https://www.w3schools.com/css/css_padding.asp */
 }
 
 /* Image gallery adapted from w3schools: CSS Image Gallery https://www.w3schools.com/css/css_image_gallery.asp */
-
 
