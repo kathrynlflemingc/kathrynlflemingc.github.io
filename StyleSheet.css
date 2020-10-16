@@ -46,8 +46,8 @@ https://www.w3schools.com/css/css_padding.asp */
 
 .welcome {
 	font-style: italic;
-	font-color: #4f5659;
+	color: #4f5659;
+	text-align: center;
 
 /* Image gallery adapted from w3schools: CSS Image Gallery https://www.w3schools.com/css/css_image_gallery.asp */
-
 
