@@ -13,7 +13,7 @@
 }
 
 .navitem a {
-  display: block;
+  display: inline;
   color: #ffffff;
   text-align: center;
   padding: 14px 16px;
