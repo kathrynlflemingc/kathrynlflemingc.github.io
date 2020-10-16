@@ -3,13 +3,12 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #24362f;
+  !background-color: #24362f;
 }
 
 .navitem {
 	display: inline;
-	float: center;
-	font-family: 
+	font-family: "Georgia", serif;
 }
 
 .navitem a {
@@ -25,7 +24,7 @@
 }
 
 .fullname {
-    font-family: "Arial Black", sans-serif;
+    font-family: "Georgia", serif;
     text-align: center;
     font-size: 5vw;
     background-color: #9dc0d1;
