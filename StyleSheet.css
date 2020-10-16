@@ -31,7 +31,8 @@ h1 {
 }
 
 p {
-	text-align: justify:
+	text-align: justify;
+	text-size: 5px;
 }
 
 /* Title style inspired by w3schools 
@@ -50,4 +51,5 @@ https://www.w3schools.com/css/css_padding.asp */
 
 
 /* Image gallery adapted from w3schools: CSS Image Gallery https://www.w3schools.com/css/css_image_gallery.asp */
+
 
