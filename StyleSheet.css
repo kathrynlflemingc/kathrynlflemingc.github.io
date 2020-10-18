@@ -53,14 +53,14 @@ https://www.w3schools.com/css/css_padding.asp */
 
 div.gallery {
   align: center;
-  border: 2px solid #ccc;
+  border: 3px solid #ccc;
   background-color: #9dc0d1;
   color: #ffffff;
 }
 
 div.gallery:hover {
   align: center;
-  border: 2px solid #777;
+  border: 3px solid #777;
   background-color: #88a6b5;
   color: #ffffff;
 }
