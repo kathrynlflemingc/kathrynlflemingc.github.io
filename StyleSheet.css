@@ -56,7 +56,7 @@ div.gallery {
   border: 3px solid #ccc;
   background-color: #9dc0d1;
   color: #ffffff;
-  font-family: Arial;
+  font-style: "Arial Black"
 }
 
 div.gallery:hover {
@@ -64,7 +64,7 @@ div.gallery:hover {
   border: 3px solid #777;
   background-color: #88a6b5;
   color: #ffffff;
-  font-family: Arial;
+  font-style: "Arial Black"
 }
 
 div.gallery img {
@@ -105,6 +105,38 @@ div.desc {
   display: table;
   clear: both;
 }
-
 /* End Source */
 
+
+/* SOURCE: Responsive columns from w3schools https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid2 */
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* End Source */
