@@ -30,6 +30,10 @@ h1 {
 	margin-bottom: 0;
 }
 
+h3 {
+	background-color: #cacccc;
+}
+
 /* Source: Title style inspired by w3schools 
 https://www.w3schools.com/css/css_padding.asp */
 .fullname {
