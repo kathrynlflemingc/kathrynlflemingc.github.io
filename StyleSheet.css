@@ -56,7 +56,7 @@ div.gallery {
   border: 3px solid #ccc;
   background-color: #9dc0d1;
   color: #ffffff;
-  font-style: "Arial Black"
+  font-family: Arial;
 }
 
 div.gallery:hover {
@@ -64,7 +64,7 @@ div.gallery:hover {
   border: 3px solid #777;
   background-color: #88a6b5;
   color: #ffffff;
-  font-style: "Arial Black"
+  font-family: Arial;
 }
 
 div.gallery img {
