@@ -28,10 +28,53 @@
 h1 {
 	margin-top: 0;
 	margin-bottom: 0;
+	margin-inline-start: 10px;
+	margin-inline-end: 10px;
+	font-family: georgia;
+	text-align: center;
+}
+
+h2 {
+	margin-block-start: 10px;
+	margin-block-end: 10px;
+	margin-inline-start: 5px;
+	margin-inline-end: 5px;
+	font-family: arial;
+	
 }
 
 h3 {
-	background-color: #cacccc;
+	margin-block-start: 10px;
+	margin-block-end: 10px;
+	margin-inline-start: 5px;
+	margin-inline-start: 5px;
+	font-family: arial;
+	
+}
+
+h4 {
+	margin-block-start: 10px;
+	margin-block-end: 10px;
+	margin-inline-start: 5px;
+	margin-inline-end: 5px;
+	font-family: arial;
+	
+	
+}
+
+p {
+	margin-block-start: 10px;
+	margin-block-end: 10px;
+	margin-inline-start: 5px;
+	margin-inline-end: 5px;
+	text-align: justify;
+	font-family: arial;
+	
+}
+
+li {
+	font-family: arial;
+
 }
 
 /* Source: Title style inspired by w3schools 
@@ -127,7 +170,7 @@ div.desc {
 /* Middle column */
 .column.middle {
   width: 50%;
-  margin-top: 5px;
+  padding-top: 5px;
   border-style: solid;
   border-width: 2px;
   border-color: #ccc;
@@ -148,4 +191,3 @@ div.desc {
 }
 
 /* End Source */
-
