@@ -88,24 +88,13 @@ ul {
 	text-align: justify;
 
 }	
-/* END Selector Tags */
-
-/* SOURCE: Styling Lists from w3 schools: https://www.w3schools.com/css/css_list.asp */
-
-ul {
-	list-style:none;
-}
 
 li {
 	font-family: arial;
-	content: \2022;
-	color: #84898a;
-	font-weight: bold;
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
+
 }
-/* END SOURCE */
+
+/* END Selector Tags */
 
 /* Index text formatting */
 .welcome {
