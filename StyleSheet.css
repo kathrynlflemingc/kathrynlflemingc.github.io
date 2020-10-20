@@ -217,4 +217,10 @@ a.tenerife:link, a.tenerife:visited {
 	display: inline-block;
 	font-family: arial;
 	font-size: 16px;
+	margin-block-start: 20px;
+	margin-block-end: 20px;
+	margin-inline-start: 20px;
+	margin-inline-end: 20px;
 }
+
+/* END SOURCE */
