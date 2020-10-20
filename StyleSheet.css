@@ -98,7 +98,7 @@ ul {
 
 li {
 	font-family: arial;
-	content: "\2022";
+	content: \2022;
 	color: #84898a;
 	font-weight: bold;
 	display: inline-block;
