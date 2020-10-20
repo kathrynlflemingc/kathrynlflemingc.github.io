@@ -166,7 +166,7 @@ div.desc {
 }
 
 /* Left column */
-.columnleft {
+.column.left {
   width: 20%;
 }
 
@@ -177,7 +177,7 @@ div.desc {
 }
 
 /* Right column */
-.columnright {
+.column.right {
   width: 30%;
 }
 
