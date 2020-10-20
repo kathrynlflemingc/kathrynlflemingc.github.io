@@ -34,7 +34,7 @@ h1 {
 
 h2 {
 	margin-top: 10px;
-	margin-end: 10px;
+	margin-bottom: 10px;
 	margin-left: 5px;
 	margin-right: 5px;
 	font-family: arial;
@@ -100,7 +100,6 @@ https://www.w3schools.com/css/css_padding.asp */
 /* Source: Image gallery adapted from w3schools: CSS Image Gallery https://www.w3schools.com/css/css_image_gallery.asp */
 
 div.gallery {
-  align: center;
   border: 3px solid #ccc;
   background-color: #9dc0d1;
   color: #ffffff;
@@ -108,7 +107,6 @@ div.gallery {
 }
 
 div.gallery:hover {
-  align: center;
   border: 3px solid #777;
   background-color: #88a6b5;
   color: #ffffff;
