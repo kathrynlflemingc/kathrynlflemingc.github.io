@@ -200,7 +200,7 @@ a.nevada:link, a.nevada:visited {
 	text-decoration: none;
 	display: inline-block;
 	font-family: arial;
-	font-size: 2px;
+	font-size: 10px;
 }
 
 a.tenerife:link, a.tenerife:visited {
@@ -211,7 +211,7 @@ a.tenerife:link, a.tenerife:visited {
 	text-decoration: none;
 	display: inline-block;
 	font-family: arial;
-	font-size: 2px;
+	font-size: 10px;
 }
 
 /* END SOURCE */
