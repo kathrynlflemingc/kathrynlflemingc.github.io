@@ -189,3 +189,29 @@ div.desc {
 }
 
 /* End Source */
+
+/* SOURCE: link button formatting https://www.w3schools.com/css/css_link.asp */
+
+a.nevada:link, a.nevada:visited {
+	background-color: #9dc0d1;
+	color: #ffffff;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: arial;
+	font-size: 2px;
+}
+
+a.tenerife:link, a.tenerife:visited {
+	background-color: #9dc0d1;
+	color: #ffffff;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: arial;
+	font-size: 2px;
+}
+
+/* END SOURCE */
