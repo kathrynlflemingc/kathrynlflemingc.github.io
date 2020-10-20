@@ -201,6 +201,7 @@ a.nevada:link, a.nevada:visited {
 	display: inline-block;
 	font-family: arial;
 	font-size: 10px;
+	margin-inline-start: 10px;
 }
 
 a.tenerife:link, a.tenerife:visited {
