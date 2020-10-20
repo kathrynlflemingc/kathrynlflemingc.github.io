@@ -165,16 +165,20 @@ div.desc {
   padding: 10px;
 }
 
-/* Left and right column */
-.column.side {
-  width: 25%;
+/* Left column */
+.columnleft {
+  width: 20%;
 }
 
 /* Middle column */
 .column.middle {
   width: 50%;
-  padding-top: 5px;
 
+}
+
+/* Right column */
+.columnright {
+  width: 30%;
 }
 
 /* Clear floats after the columns */
