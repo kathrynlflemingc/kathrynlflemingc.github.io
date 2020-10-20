@@ -1,53 +1,217 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Index.html</title>
-	<link href="StyleSheet.css" rel="stylesheet" >
-	<meta name="viewport" content="width-device-width, initial-scale=1.0">
-</head>
-<body>
+/* Source: Navigation bar inspired by w3schools https://www.w3schools.com/css/css_navbar_horizontal.asp */
+.navbar {
+  font-size: 2vw;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9dc0d1;
+}
 
-<h1 class="fullname"> Kathryn Little, M.Sc.</h1>
-<ul class="navbar">
-  <li class="navitem"><a href="/index.html">Index</a></li>
-  <li class="navitem"><a href="/Resume.html">Resume</a></li>
-  <li class="navitem"><a href="/Research.html">Research</a></li>
-</ul>  
+.navitem {
+  float: center;
+}
 
-<p class="welcome">Welcome! My name is Kathryn Little.</p>
-<p class="welcome">I have a Masters of Science in Earth Sciences, focusing on isotope geochemistry of felsic tuffs, from Carleton University, and I am currently attending Fleming College in the GIS Applications Specialist Program.</p>
+.navitem a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
 
-<h2>Responsive Image Gallery</h2>
-<h4>Resize the browser window to see the effect.</h4>
+.navitem a:hover {
+  background-color: #88a6b5;
+}
+/* End Source */
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="/images/Teide.jpg">
-      <img src="/images/Teide.jpg" alt="Teide" width="480" height="600">
-    </a>
-    <div class="desc">Teide Volcano, Tenerife, Canary Islands</div>
-  </div>
-</div>
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-family: georgia;
+	text-align: center;
+}
+
+h2 {
+	margin-block-start: 10px;
+	margin-block-end: 10px;
+	margin-inline-start: 5px;
+	margin-inline-end: 5px;
+	font-family: arial;
+	
+}
+
+h3 {
+	margin-block-start: 10px;
+	margin-block-end: 10px;
+	margin-inline-start: 5px;
+	margin-inline-start: 5px;
+	font-family: arial;
+	
+}
+
+h4 {
+	margin-block-start: 10px;
+	margin-block-end: 10px;
+	margin-inline-start: 5px;
+	margin-inline-end: 5px;
+	font-family: arial;
+	
+	
+}
+
+p {
+	margin-block-start: 10px;
+	margin-block-end: 10px;
+	margin-inline-start: 5px;
+	margin-inline-end: 5px;
+	text-align: justify;
+	font-family: arial;
+	
+}
+
+li {
+	font-family: arial;
+
+}
+
+/* Source: Title style inspired by w3schools 
+https://www.w3schools.com/css/css_padding.asp */
+.fullname {
+	text-align: center;
+	font-size: 5vw;
+	background-color: #9dc0d1;
+	color: #ffffff;
+	padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+}
+/* End Source */
+
+.welcome {
+	font-style: italic;
+	color: #4f5659;
+	text-align: center;
+} 
+/* Source: Image gallery adapted from w3schools: CSS Image Gallery https://www.w3schools.com/css/css_image_gallery.asp */
+
+div.gallery {
+  align: center;
+  border: 3px solid #ccc;
+  background-color: #9dc0d1;
+  color: #ffffff;
+  font-family: Arial;
+}
+
+div.gallery:hover {
+  align: center;
+  border: 3px solid #777;
+  background-color: #88a6b5;
+  color: #ffffff;
+  font-family: Arial;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* End Source */
 
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="/images/Killarney.jpg">
-      <img src="/images/Killarney.jpg" alt="Killarney" width="480" height="607">
-    </a>
-    <div class="desc">La Cloche Mountains, Killarney</div>
-  </div>
-</div>
+/* SOURCE: Responsive columns from w3schools https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid2 */
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="/images/Underdown.jpg">
-      <img src="/images/Underdown.jpg" alt="Underdown Tuff" width="480" height="599">
-    </a>
-    <div class="desc">Underdown Tuff cooling joints, Nevada</div>
-  </div>
-</div>
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
 
-<div class="clearfix"></div>
+/* Middle column */
+.column.middle {
+  width: 50%;
+  padding-top: 5px;
 
-</body>
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* End Source */
+
+/* SOURCE: link button formatting https://www.w3schools.com/css/css_link.asp */
+
+a.nevada {
+	background-color: #9dc0d1;
+	color: #ffffff;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: arial;
+	font-size: 2px;
+}
+
+a.tenerife {
+	background-color: #9dc0d1;
+	color: #ffffff;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: arial;
+	font-size: 2px;
+}
+
+/* END SOURCE */
