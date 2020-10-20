@@ -1,4 +1,4 @@
-/* Source: Navigation bar inspired by w3schools https://www.w3schools.com/css/css_navbar_horizontal.asp */
+/* SOURCE: Navigation bar inspired by w3schools https://www.w3schools.com/css/css_navbar_horizontal.asp */
 .navbar {
   font-size: 2vw;
   list-style-type: none;
@@ -23,50 +23,48 @@
 .navitem a:hover {
   background-color: #88a6b5;
 }
-/* End Source */
+/* END SOURCE */
 
 h1 {
 	margin-top: 0;
 	margin-bottom: 0;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
 	font-family: georgia;
 	text-align: center;
 }
 
 h2 {
-	margin-block-start: 10px;
-	margin-block-end: 10px;
-	margin-inline-start: 5px;
-	margin-inline-end: 5px;
+	margin-top: 10px;
+	margin-end: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	font-family: arial;
 	
 }
 
 h3 {
-	margin-block-start: 10px;
-	margin-block-end: 10px;
-	margin-inline-start: 5px;
-	margin-inline-start: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	font-family: arial;
 	
 }
 
 h4 {
-	margin-block-start: 10px;
-	margin-block-end: 10px;
-	margin-inline-start: 5px;
-	margin-inline-end: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	font-family: arial;
 	
 	
 }
 
 p {
-	margin-block-start: 10px;
-	margin-block-end: 10px;
-	margin-inline-start: 5px;
-	margin-inline-end: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
 	text-align: justify;
 	font-family: arial;
 	
@@ -96,8 +94,8 @@ https://www.w3schools.com/css/css_padding.asp */
 	color: #4f5659;
 	text-align: center;
 	font-size: 20px;
-	margin-block-start: 20px;
-	margin-block-end: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 } 
 /* Source: Image gallery adapted from w3schools: CSS Image Gallery https://www.w3schools.com/css/css_image_gallery.asp */
 
@@ -208,10 +206,10 @@ a.nevada:link, a.nevada:visited {
 	display: inline-block;
 	font-family: arial;
 	font-size: 16px;
-	margin-block-start: 20px;
-	margin-block-end: 20px;
-	margin-inline-start: 20px;
-	margin-inline-end: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 	
 }
 
@@ -224,10 +222,10 @@ a.tenerife:link, a.tenerife:visited {
 	display: inline-block;
 	font-family: arial;
 	font-size: 16px;
-	margin-block-start: 20px;
-	margin-block-end: 20px;
-	margin-inline-start: 20px;
-	margin-inline-end: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 /* END SOURCE */
